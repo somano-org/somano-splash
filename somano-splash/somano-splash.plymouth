@@ -1,0 +1,55 @@
+
+[Plymouth Theme]
+Name=Somano Splash
+Description=A theme for Somano, forked from the Spinner theme. (jimmac was the creator of the original.)
+ModuleName=two-step
+
+[two-step]
+Font=IBM Plex Mono 12
+TitleFont=IBM Plex Mono Light 28
+ImageDir=/usr/share/plymouth/themes/somano-splash
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.382
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.65
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.85
+Transition=fade-over
+TransitionDuration=0.3
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+
+[shutdown]
+UseEndAnimation=false
+
+[reboot]
+UseEndAnimation=false
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates..
+SubTitle=Keep your PC on for this action.
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System..
+SubTitle=Keep your PC on for this action.
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware..
+SubTitle=Keep your PC on for this action.
